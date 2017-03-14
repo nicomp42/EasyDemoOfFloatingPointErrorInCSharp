@@ -15,6 +15,15 @@ namespace Demo42 {
             alpha += delta;
             Console.WriteLine("Result = " + alpha);
             // Whoosh
+
+            alpha = 42.0F;
+            Console.WriteLine("Start with = " + alpha);
+            float tax = alpha * .0725F;
+            Console.WriteLine("Multiply by 7.25% to get sales tax = " + tax);
+            float amount = alpha += tax;
+            Console.WriteLine("Add to " + alpha + " to  get " + amount);
+
+
         }
     }
 }
