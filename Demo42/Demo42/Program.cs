@@ -1,4 +1,6 @@
-﻿using System;
+﻿// 
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +24,12 @@ namespace Demo42 {
             Console.WriteLine("Multiply by 7.25% to get sales tax = " + tax);
             float amount = alpha += tax;
             Console.WriteLine("Add to " + alpha + " to  get " + amount);
+
+            alpha = 123456.00F;
+            Console.WriteLine("Start with = " + alpha);
+            Console.WriteLine("Multiply by 1.0725 to get total with sales tax = " + tax);
+            alpha *= 1.0725F;
+            Console.WriteLine("Result = " + alpha);
 
 
         }
